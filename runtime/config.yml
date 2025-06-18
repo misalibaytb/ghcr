@@ -1,0 +1,8 @@
+ssl:
+  origin: ./runtime/ssl/origin.pem
+  key: ./runtime/ssl/key.pem
+
+database:
+  url: jdbc:mysql://localhost:3306/ghcr
+  username: ghcr_user
+  password: nothingToSeeHere
