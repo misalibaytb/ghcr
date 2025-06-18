@@ -1,0 +1,1 @@
+nodemon --ext java --exec "cmd /c mvn compile exec:java -Dexec.mainClass=eu.misaliba.ghcr.Main -Dexec.args=\"./runtime/config.yml\""
